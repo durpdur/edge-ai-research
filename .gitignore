@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Xcode build files
+build/
+DerivedData/
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods, if you use it
+Pods/
+
+# Carthage, if you use it
+Carthage/Build/
+
+# Fastlane, if you use it
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# App secrets / environment files
+.env
+*.env
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# GGUF
+*.gguf
+
+# Debug Symbol File
+*.dSYM
